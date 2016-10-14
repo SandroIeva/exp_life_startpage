@@ -1,0 +1,71 @@
+
+html, body {
+	background-color: #24365e;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+   	font-family: 'Roboto', sans-serif;
+	background-repeat: no-repeat!important;
+	background-attachment:fixed;
+    background-position: center !important;
+    background-size: cover !important;
+	background-image: url(images/bg.jpg) !important;
+    
+}
+
+
+
+#mce-EMAIL:focus { 
+	border: 0 !important;	
+}
+
+*:focus {
+    outline: 0;
+}
+
+
+
+
+::selection {
+  background: #e8be74; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #e8be74; /* Gecko Browsers */
+}
+
+.logo {
+	margin-top: 170px;
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.claime {
+	width: 600px;
+	position: absolute;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+	bottom: 7%;
+	left: 50%;
+	margin-left: -300px;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+   
+.claime {
+	width: 300px;
+	margin-left: -150px;
+
+}
+}
